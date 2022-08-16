@@ -58,146 +58,146 @@ double bolme(double ed1, double ed2)
 
 void hesablama()
 {
-    if (emeliyyat == "+")
-    {
-        netice = toplama(eded1, eded2);
-        Console.WriteLine($"Cavab: {netice} \n");
-    }
-    else
-    {
-        if (emeliyyat == "-")
-        {
-            netice = chixma(eded1, eded2);
-            Console.WriteLine($"Cavab: {netice} \n");
-        }
-        else
-        {
-            if (emeliyyat == "*")
-            {
-                netice = vurma(eded1, eded2);
-                Console.WriteLine($"Cavab: {netice} \n");
-            }
-            else
-            {
-                if (emeliyyat == "/")
-                {
-                    netice = bolme(eded1, eded2);
-                    Console.WriteLine($"Cavab: {netice} \n");
-                }
-                else
-                {
-                    if (emeliyyat == "%")
-                    {
-                        Console.WriteLine("979");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Emeliyyati duzgun daxil edin");
-                        emel();
-                        hesablama();
-                    }
-
-
-                }
-            }
-        }
-    }
-
-
-
-
-    if (emeliyyat == "+")
-    {
-        netice = toplama(eded1, eded2);
-        Console.WriteLine($"Cavab: {netice} \n");
-    }
-    else if (emeliyyat == "-")
-    {
-        netice = chixma(eded1, eded2);
-        Console.WriteLine($"Cavab: {netice} \n");
-    }
-    else if (emeliyyat == "*")
-    {
-        netice = vurma(eded1, eded2);
-        Console.WriteLine($"Cavab: {netice} \n");
-    }
-    else if (emeliyyat == "/")
-    {
-        netice = bolme(eded1, eded2);
-        Console.WriteLine($"Cavab: {netice} \n");
-    }
-    else if (emeliyyat == "%")
-    {
-
-    }
-    else
-    {
-        Console.WriteLine("Emeliyyati duzgun daxil edin");
-        emel();
-        hesablama();
-    }
-
-
-
-
-
-    if (emeliyyat == "+")
-    {
-        netice = toplama(eded1, eded2);
-        Console.WriteLine($"Cavab: {netice} \n");
-    }
-    if (emeliyyat == "-")
-    {
-        netice = chixma(eded1, eded2);
-        Console.WriteLine($"Cavab: {netice} \n");
-    }
-    if (emeliyyat == "*")
-    {
-        netice = vurma(eded1, eded2);
-        Console.WriteLine($"Cavab: {netice} \n");
-    }
-
-    if (emeliyyat == "/")
-    {
-        netice = bolme(eded1, eded2);
-        Console.WriteLine($"Cavab: {netice} \n");
-    }
-
-
-    if (emeliyyat != "+" && emeliyyat != "-" && emeliyyat != "*" && emeliyyat != "/")
-    {
-        Console.WriteLine("Emeliyyati duzgun daxil edin");
-        emel();
-        hesablama();
-    }
-
-
-    //switch (emeliyyat)
-    //{
-    //    case "+":
+    //    if (emeliyyat == "+")
+    //    {
     //        netice = toplama(eded1, eded2);
     //        Console.WriteLine($"Cavab: {netice} \n");
-    //        break;
-    //    case "-":
-    //        netice = chixma(eded1, eded2);
-    //        Console.WriteLine($"Cavab: {netice} \n");
-    //        break;
-    //    case "*":
-    //        netice = vurma(eded1, eded2);
-    //        Console.WriteLine($"Cavab: {netice} \n");
-    //        break;
-    //    case "/":
-    //        netice = bolme(eded1, eded2);
-    //        Console.WriteLine($"Cavab: {netice} \n");
-    //        break;
-    //    default:
-    //        Console.WriteLine("Emeliyyati duzgun daxil edin");
-    //        emel();
-    //        hesablama();
-    //        break;
+    //    }
+    //    else
+    //    {
+    //        if (emeliyyat == "-")
+    //        {
+    //            netice = chixma(eded1, eded2);
+    //            Console.WriteLine($"Cavab: {netice} \n");
+    //        }
+    //        else
+    //        {
+    //            if (emeliyyat == "*")
+    //            {
+    //                netice = vurma(eded1, eded2);
+    //                Console.WriteLine($"Cavab: {netice} \n");
+    //            }
+    //            else
+    //            {
+    //                if (emeliyyat == "/")
+    //                {
+    //                    netice = bolme(eded1, eded2);
+    //                    Console.WriteLine($"Cavab: {netice} \n");
+    //                }
+    //                else
+    //                {
+    //                    if (emeliyyat == "%")
+    //                    {
+    //                        Console.WriteLine("979");
+    //                    }
+    //                    else
+    //                    {
+    //                        Console.WriteLine("Emeliyyati duzgun daxil edin");
+    //                        emel();
+    //                        hesablama();
+    //                    }
+
+
+    //                }
+    //            }
+    //        }
+    //    }
+
+
+
+
+    //if (emeliyyat == "+")
+    //{
+    //    netice = toplama(eded1, eded2);
+    //    Console.WriteLine($"Cavab: {netice} \n");
     //}
-    //nomre ++;
-    //davam();
+    //else if (emeliyyat == "-")
+    //{
+    //    netice = chixma(eded1, eded2);
+    //    Console.WriteLine($"Cavab: {netice} \n");
+    //}
+    //else if (emeliyyat == "*")
+    //{
+    //    netice = vurma(eded1, eded2);
+    //    Console.WriteLine($"Cavab: {netice} \n");
+    //}
+    //else if (emeliyyat == "/")
+    //{
+    //    netice = bolme(eded1, eded2);
+    //    Console.WriteLine($"Cavab: {netice} \n");
+    //}
+    //else if (emeliyyat == "%")
+    //{
+
+    //}
+    //else
+    //{
+    //    Console.WriteLine("Emeliyyati duzgun daxil edin");
+    //    emel();
+    //    hesablama();
+    //}
+
+
+
+
+
+    //if (emeliyyat == "+")
+    //{
+    //    netice = toplama(eded1, eded2);
+    //    Console.WriteLine($"Cavab: {netice} \n");
+    //}
+    //if (emeliyyat == "-")
+    //{
+    //    netice = chixma(eded1, eded2);
+    //    Console.WriteLine($"Cavab: {netice} \n");
+    //}
+    //if (emeliyyat == "*")
+    //{
+    //    netice = vurma(eded1, eded2);
+    //    Console.WriteLine($"Cavab: {netice} \n");
+    //}
+
+    //if (emeliyyat == "/")
+    //{
+    //    netice = bolme(eded1, eded2);
+    //    Console.WriteLine($"Cavab: {netice} \n");
+    //}
+
+
+    //if (emeliyyat != "+" && emeliyyat != "-" && emeliyyat != "*" && emeliyyat != "/")
+    //{
+    //    Console.WriteLine("Emeliyyati duzgun daxil edin");
+    //    emel();
+    //    hesablama();
+    //}
+
+
+    switch (emeliyyat)
+{
+    case "+":
+        netice = toplama(eded1, eded2);
+        Console.WriteLine($"Cavab: {netice} \n");
+        break;
+    case "-":
+        netice = chixma(eded1, eded2);
+        Console.WriteLine($"Cavab: {netice} \n");
+        break;
+    case "*":
+        netice = vurma(eded1, eded2);
+        Console.WriteLine($"Cavab: {netice} \n");
+        break;
+    case "/":
+        netice = bolme(eded1, eded2);
+        Console.WriteLine($"Cavab: {netice} \n");
+        break;
+    default:
+        Console.WriteLine("Emeliyyati duzgun daxil edin");
+        emel();
+        hesablama();
+        break;
+}
+nomre++;
+davam();
 }
 
 void davam()
